@@ -1,0 +1,7 @@
+
+body{margin:0;font-family:Arial;background:#f4f6f9}
+.sidebar{position:fixed;left:0;top:0;width:220px;height:100vh;background:#0f172a;color:#fff;padding:20px}
+.sidebar a{display:block;color:#fff;text-decoration:none;padding:10px 0}
+.main{margin-left:240px;padding:30px}
+input,button{padding:10px;font-size:16px}
+#result{margin-top:20px;padding:15px;background:#fff;border-radius:8px;border:1px solid #ddd}
