@@ -1,7 +1,7 @@
 
 let data=[];
 async function loadExcel(){
- const r=await fetch('data/HTP_Height_Chart.xlsx');
+ const r=await fetch("HTP_Height_Chart.xlsx")
  const b=await r.arrayBuffer();
  const wb=XLSX.read(b);
  const ws=wb.Sheets[wb.SheetNames[0]];
